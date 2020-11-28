@@ -1,0 +1,16 @@
+[
+  {
+	"id": "1",
+	"tipo": "ATIVO"
+  },
+
+  {
+    "id": "2",
+    "tipo": "PASSIVO"
+  },
+
+  {
+    "id": "3",
+    "tipo": "DESPESAS"
+  }
+]

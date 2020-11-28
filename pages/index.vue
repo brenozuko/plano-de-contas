@@ -1,6 +1,7 @@
 <template>
 <div>
-<Header/>
+<SubHeader/>
+<TablePlans/>
 </div>
 </template>
 

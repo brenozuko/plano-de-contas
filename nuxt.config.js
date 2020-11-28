@@ -8,7 +8,10 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap' },
+      { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@600&display=swap' }
+
     ]
   },
 
@@ -18,6 +21,11 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    {
+      // https://vue-select.org/
+      src: '~/plugins/VueSelect'
+    },
+
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
