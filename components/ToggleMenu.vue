@@ -13,11 +13,17 @@
     <div :class="{ open: isActive, closed: !isActive }" class="navigation">
       <ul>
         <li>
-          <a href="#">Registros Contábeis</a>
+          <a href="/registros">Registros Contábeis</a>
         </li>
+
+        <li>
+          <a href="/">Apresentação</a>
+        </li>
+
         <li>
           <a href="#">Área de funcionários</a>
         </li>
+
         <li>
           <a href="#">Dashboard</a>
         </li>

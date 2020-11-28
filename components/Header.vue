@@ -1,8 +1,10 @@
 <template>
   <div class="bg-black">
     <div class="container flex justify-between items-center">
-      <img class="logo" src="@/assets/img/The_Universe.png" alt="Book On" />
-      <ToggleMenu/>
+      <a href="/">
+        <img class="logo" src="@/assets/img/The_Universe.png" alt="Book On" />
+      </a>
+      <ToggleMenu />
     </div>
   </div>
 </template>
@@ -18,8 +20,7 @@ export default {};
   height: 135px;
 }
 
-.navigation-link{
-
+.navigation-link {
   @apply text-white text-lg mx-2;
 }
 </style>
