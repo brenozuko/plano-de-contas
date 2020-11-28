@@ -1,7 +1,7 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'plano-de-contas',
+    title: 'The Universe Books - CMS',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -9,8 +9,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap' },
-      { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@600&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@600&display=swap' }
 
     ]
   },
@@ -25,6 +25,12 @@ export default {
       // https://vue-select.org/
       src: '~/plugins/VueSelect'
     },
+
+    {
+      // Doc: https://github.com/surmon-china/vue-awesome-swiper
+      src: '~/plugins/VueSwiper'
+    },
+
 
   ],
 
